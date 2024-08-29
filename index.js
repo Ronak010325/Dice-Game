@@ -37,11 +37,11 @@ function loadright() {
 
 function winner() {
     if(randomLeft === randomRight) {
-        document.querySelector(".container > h1").textContent = "Draw!";
+        document.querySelector(".container > .winner").textContent = "Draw!";
     } else if (randomLeft > randomRight) {
-        document.querySelector(".container > h1").textContent = "🚩Play 1 Wins!";
+        document.querySelector(".container > .winner").textContent = "🚩Play 1 Wins!";
     } else {
-        document.querySelector(".container > h1").textContent = "Play 2 Wins!🚩";
+        document.querySelector(".container > .winner").textContent = "Play 2 Wins!🚩";
     }
 }
 
